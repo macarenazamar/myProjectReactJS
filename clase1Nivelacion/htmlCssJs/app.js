@@ -14,7 +14,7 @@ const lista = document. getElementById("list")
 //Aniadir funcionalida para mostrar personajes
 
 //al precionar el boton quermos que se muestre la lista
-// Primero se accede al elemento (hay tres maneras) 1)con listener 2)
+// Primero se accede al elemento (hay tres maneras) (?)1)con listener 2)
 //con listener, el primer elemento es que evento va a escuchar (click), el segundo parametro hay que enivarle la funcion que se va a ejecutar al hacer click, llamada funcion callback en este caso lo hacemos con una funcion flecha se lo podria hacer con una funcion afuera y luego llamarla. En este caso la funcion va a estar vacia
 showButton.addEventListener('click', ()=> {
     //lo que queremos que se ejecute cuando hacemos click es que se incorpere los heroes a la lista. Hay que hacer un bucle con cada uno de los elementos e ir incorporandolos a una variable auxiliar
